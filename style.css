@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-slider {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: #c54542;
+}
+
+.main-slider .swiper-slier {
+  height: 100vh;
+  width: 100vw;
+  background: none;
+  position: relative;
+}
+
+.main-slider .swiper-slier img {
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  height: 85vh;
+  object-fit: contain;
+}
+
+.text {
+  position: absolute;
+  left: 20%;
+  bottom: 30%;
+}
+
+.text h2 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 0.9;
+  color: white;
+}
+
+.spider {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  bottom: -15%;
+  right: -39%;
+}
+
+.spider img {
+  height: 100vh;
+  width: 20%;
+  object-fit: cover;
+  transform: scale(2.5);
+}
